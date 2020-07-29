@@ -103,7 +103,7 @@
   }
 
   $(function () {
-    $('[data-toggle="tooltip"]').tooltip("show");
+    $('[data-toggle="tooltip"]').tooltip({ trigger: "manual" }).tooltip("show");
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
