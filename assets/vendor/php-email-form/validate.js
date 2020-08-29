@@ -159,7 +159,7 @@
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
       type: "POST",
-      url: "http://localhost:3000/send-message",
+      url: "https://my-profile-info-app.herokuapp.com/send-message",
       data: data,
       timeout: 40000,
     })
