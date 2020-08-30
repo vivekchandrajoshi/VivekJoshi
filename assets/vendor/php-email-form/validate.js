@@ -134,6 +134,7 @@
       this_form.find(".error-message").slideUp();
       this_form.find(".loading").slideDown();
       php_email_form_submit(this_form, action, this_form.serialize());
+      grecaptcha.reset();
     }
     return true;
   });
