@@ -153,6 +153,7 @@
         php_email_form_submit(this_form, action, this_form.serialize());
       }
     }
+    recaptcha.reset();
     return true;
   });
 
